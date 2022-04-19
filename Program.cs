@@ -20,6 +20,10 @@ namespace csharp_stack_binary
                 s.Push(arr[index]);
                 dec = dec / 2;
             }
+            while (s.Count > 0)
+            {
+                result = result + s.Pop();
+            }
         }
     }
 }
