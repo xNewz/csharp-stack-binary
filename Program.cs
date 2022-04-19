@@ -24,6 +24,7 @@ namespace csharp_stack_binary
             {
                 result = result + s.Pop();
             }
+            Console.WriteLine($"Binary is: {result}");
         }
     }
 }
