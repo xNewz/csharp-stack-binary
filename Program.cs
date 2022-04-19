@@ -11,6 +11,8 @@ namespace csharp_stack_binary
             Stack<string> s = new Stack<string>();
             int index;
             string result = "";
+            Console.Write("Decimal to Binary: ");
+            int dec = int.Parse(Console.ReadLine());
         }
     }
 }
