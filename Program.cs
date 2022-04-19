@@ -13,6 +13,13 @@ namespace csharp_stack_binary
             string result = "";
             Console.Write("Decimal to Binary: ");
             int dec = int.Parse(Console.ReadLine());
+
+            while (dec > 0)
+            {
+                index = dec % 2;
+                s.Push(arr[index]);
+                dec = dec / 2;
+            }
         }
     }
 }
